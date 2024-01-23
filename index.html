@@ -2,24 +2,29 @@
 <html lang="en-us">
 <head>
 	<meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico"/>
 	<title>Heads or Tails</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 	<header>
 		<h1>Choose a side</h1>
 	</header>
 	<section>
-		<p id="heads">Heads</p>
-		<p id="tails">Tails</p>
+		<!-- <p id="heads">Heads</p> -->
+        <img id="heads" src="/assets/heads.png">
+		<!-- <p id="tails">Tails</p> -->
+        <img id="tails" src="/assets/tails.png">
 	</section>
     <section>
 		<p id="result"></p>
+        <!-- <img id="headsWins" class="hidden"> -->
+        <!-- <img id="tailsWins" class="hidden"> -->
 	</section>
     <section>
-		<button id="reload">Try again?</button>
+		<button id="reload" class="hidden">Try again?</button>
 	</section>
 
-	<script src="main.js"></script>
+	<script  src="/main.js"></script>
 </body>
 </html>
