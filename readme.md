@@ -4,6 +4,8 @@ A small HTML, CSS, and JS program for picking heads or tails
 
 - Put together a layout
 - Add styling
+- Set a time out so the choices disappear a few seconds before the coin toss finishes
+- Add an animation of coins flipping
 
 ## Additions
 
