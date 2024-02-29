@@ -10,3 +10,7 @@ A small HTML, CSS, and JS program for picking heads or tails
 ## Additions
 
 - Add an option to use different currency (i.e. Default will be a US Quarter, but there could be Euros, Pounds, Yen, etc.)
+
+## Updates
+
+-added in a folder to hold all the different types of coins
